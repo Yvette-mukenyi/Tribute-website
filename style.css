@@ -1,0 +1,136 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li, blockquote {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    font-size: 62.5%; /* Set base font size to 10px for easier rem units */
+  }
+  
+  body {
+    font-family:'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    text-align: center;
+    color: #004080;
+    margin: 0;
+  }
+  h1 {
+    font-size: 3em; /* Adjust size as needed */
+    color: #2D9596; /* Change color to green */
+    animation: none; /* Remove animation */
+    background-image: none; /* Remove background image */
+    -webkit-background-clip: initial; /* Reset background clip */
+    -webkit-text-fill-color: initial; /* Reset text fill color */
+}
+  
+  @media (max-width: 460px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+  }
+  
+  h2 {
+    font-size: 3.25rem;
+    margin-bottom: 1rem;
+  }
+  
+  a {
+    color: #477ca7;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #006400;
+  }
+  
+  #main {
+    margin: 3rem 8px;
+    padding: 2rem;
+    border-radius: 5px;
+    background: #265073; /* Change background to black */
+    color: #ECF4D6; 
+  }
+  
+  @media (max-width: 460px) {
+    #main {
+        margin: 0;
+    }
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  #img-div {
+    background-color:  #265073;
+    padding: 1rem;
+    margin: 0;
+  }
+  
+  #img-caption {
+    margin: 1.5rem 0 0.5rem 0;
+    font-style: italic;
+    color:white;
+  }
+  
+  @media (max-width: 460px) {
+    #img-caption {
+        font-size: 1.4rem;
+    }
+  }
+  
+  #headline {
+    margin: 2.5rem 0;
+    text-align: center;
+  }
+  
+  ul {
+    max-width: 55rem;
+    margin: 0 auto 2.5rem auto;
+    text-align: left;
+    list-style: none;
+  }
+  
+  li {
+    margin: 1.6rem 0;
+  }
+  
+  blockquote {
+    font-style: italic;
+    max-width: 54.5rem;
+    margin: 0 auto 2.5rem auto;
+    text-align: left;
+  }
+  
+  .dramatic-quote {
+    font-family: 'Times New Roman', serif;
+    font-size: 1.5em;
+    text-align: center;
+    color: #ff0000; /* red color for dramatic effect */
+    padding: 20px;
+  }
+  
+  .dramatic-quote p, .dramatic-quote cite {
+    color: #ffffff; /* white text */
+  }
+  
+  .dramatic-quote cite {
+    font-style: italic;
+  }
+  .animated-gradient {
+    animation: animateBg 1.5s linear infinite;
+    background-size: 400% 100%;
+    background-color: #265073; /* Add this line to set the background color to black */
+}
+
+@keyframes animateBg {
+    0% { background-position: 0% 0%; }
+    100% { background-position: 100% 0%; }
+}
+  
+  
+  
